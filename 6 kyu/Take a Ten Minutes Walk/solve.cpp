@@ -8,3 +8,4 @@ bool isValidWalk(std::vector<char> walk) {
      int e_count = count(walk.begin(),walk.end(),'e');
      if(w_size == 10 && (n_count == s_count && w_count == e_count))return true;
      else return false;
+}
